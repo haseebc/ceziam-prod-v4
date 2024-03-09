@@ -51,6 +51,20 @@ gem "font-awesome-sass", "~> 6.1"
 gem "simple_form", github: "heartcombo/simple_form"
 gem "sassc-rails"
 
+# Added 04-03-2024
+gem 'bourbon'
+gem 'crack'
+gem 'jquery-rails'
+gem 'json'
+gem 'meta-tags'
+gem 'net-scp'
+gem 'net-ssh'
+gem 'pygments.rb'
+gem 'redcarpet'
+gem 'sidekiq'
+gem 'sidekiq-failures'
+gem 'sitemap_generator'
+
 group :development, :test do
   gem "dotenv-rails"
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
